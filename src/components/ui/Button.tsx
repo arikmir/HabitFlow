@@ -6,6 +6,7 @@ import {
   ActivityIndicator,
   ViewStyle,
   TextStyle,
+  StyleProp,
 } from 'react-native';
 import { Colors } from '@/constants';
 
@@ -19,7 +20,7 @@ interface ButtonProps {
   size?: ButtonSize;
   disabled?: boolean;
   loading?: boolean;
-  style?: ViewStyle;
+  style?: StyleProp<ViewStyle>;
   textStyle?: TextStyle;
   icon?: React.ReactNode;
 }
